@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Phd Candidate at Electrical Engineering, UBC.
+description: <a href="https://engineering.ubc.ca/">Affiliations</a>. Phd Candidate at Electrical Engineering, UBC.
 
 profile:
   align: right
