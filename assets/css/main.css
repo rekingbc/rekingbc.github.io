@@ -40,6 +40,7 @@ a:hover:after, table.table a:hover:after { width: 100%; }
 
 @media (min-width: 576px) { .profile { width: 30%; }
   .profile .address p { display: block; } }
+@media (max-width: 575px) { .profile { width: 65%; float: none !important; margin: 0 auto 1.5rem; } }
 .post-description { margin-bottom: 2rem; font-size: 0.875rem; }
 .post-description a { color: inherit; }
 .post-description a:hover { color: var(--global-theme-color); text-decoration: none; }
@@ -79,7 +80,7 @@ footer.fixed-bottom .container { color: var(--global-footer-text-color); padding
 footer.fixed-bottom a { color: var(--global-footer-link-color); }
 footer.fixed-bottom a:hover { color: pink; text-decoration: none; }
 
-footer.sticky-bottom { border-top: 1px solid #e8e8e8; padding-top: 40px; padding-bottom: 40px; font-size: 0.9rem; }
+footer.sticky-bottom { border-top: 1px solid #e8e8e8; padding-top: 1rem; padding-bottom: 1rem; font-size: 0.75rem; }
 
 .header-bar { border-bottom: 1px solid #e8e8e8; text-align: center; padding-top: 2rem; padding-bottom: 5rem; }
 .header-bar h1 { color: var(--global-theme-color); font-size: 5rem; }
@@ -106,9 +107,10 @@ footer.sticky-bottom { border-top: 1px solid #e8e8e8; padding-top: 40px; padding
 .publications h1 { color: var(--global-theme-color); font-size: 2rem; text-align: center; margin-top: 1em; margin-bottom: 1em; }
 .publications h2 { margin-bottom: 1rem; }
 .publications h2 span { font-size: 1.5rem; }
-.publications h2.year { color: #e8e8e8; border-top: 1px solid #e8e8e8; padding-top: 1rem; margin-top: 2rem; margin-bottom: -2rem; text-align: right; }
+.publications h2.year { color: var(--global-theme-color); border-top: 1px solid #e8e8e8; padding-top: 1rem; margin-top: 2rem; margin-bottom: 1rem; text-align: left; }
 .publications ol.bibliography { list-style: none; padding: 0; margin-top: 0; }
-.publications ol.bibliography li { margin-bottom: 1rem; }
+.publications ol.bibliography li { margin-bottom: 1.5rem; }
+.publications ol.bibliography li .links { font-size: 0.875rem; margin-top: 0.25rem; }
 .publications ol.bibliography li .abbr { height: 2rem; margin-bottom: 0.5rem; }
 .publications ol.bibliography li .abbr abbr { display: inline-block; background-color: var(--global-theme-color); padding-left: 1rem; padding-right: 1rem; }
 .publications ol.bibliography li .abbr abbr a { color: white; }
