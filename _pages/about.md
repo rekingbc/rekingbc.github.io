@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Software engineer &middot; Machine learning researcher
+description: Experienced software engineer &middot; Machine learning researcher
 
 profile:
   align: right
@@ -13,7 +13,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a software engineer with 10 years of experience and a machine learning researcher.
+I am an experienced software engineer with 10 years in industry. I also conduct machine learning research.
 
 My research spans optimization, statistical machine learning, and deep learning, with recent work on federated learning and forecasting for buildings and energy systems.
 

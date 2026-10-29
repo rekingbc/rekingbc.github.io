@@ -8,7 +8,7 @@ middle_name:
 last_name: Wang
 email: rekingbc@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Rui Wang is a software engineer with 10 years of experience and a machine learning researcher. Explore his work, academic experience, and publications.
+  Rui Wang is an experienced software engineer with 10 years in industry. He also conducts machine learning research.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
