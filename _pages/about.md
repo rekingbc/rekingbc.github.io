@@ -2,19 +2,17 @@
 layout: about
 title: about
 permalink: /
-description: <a href="https://engineering.ubc.ca/">Affiliations</a>. Phd Candidate at Electrical Engineering, UBC.
+description: Software engineer &middot; Machine learning researcher &middot; <a href="https://ece.ubc.ca/">UBC Electrical Engineering Ph.D. (2025)</a>
 
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
-    <p>School of Engineering</p>
-    <p>Faculty of Applied Science</p>
-    <p>University of British Columbia</p>
 
-news: true  # includes a list of news items
+news: false
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-My research spans optimization, statistical machine learning, deep learning. I am interested at applying ML techniques to large-scale industrial applications. 
+I am a software engineer with 10 years of experience and a machine learning researcher. I earned my Ph.D. in Electrical Engineering from the University of British Columbia in 2025.
+
+My research spans optimization, statistical machine learning, and deep learning, with recent work on federated learning and forecasting for buildings and energy systems.

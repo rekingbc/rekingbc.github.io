@@ -5,7 +5,7 @@
     <div class="container">
       {% if page.title != "about" %}
       <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl | prepend: site.url }}/">
-       {% if site.title == blank %}{{ site.title }}{% else %}<span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}  {{ site.last_name }}{% endif %}
+       <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.last_name }}
       </a>
       {% elsif site.show_social_icons %}
         <!-- Social Icons -->
@@ -58,7 +58,7 @@
           {% endfor %}
           {% if site.enable_darkmode %}
             <div class = "toggle-container">
-              <a id = "light-toggle">
+              <a id = "light-toggle" aria-label="Toggle color theme">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
               </a>

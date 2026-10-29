@@ -6,9 +6,9 @@ title: Rui Wang # the website title (if blank, full name will be used instead)
 first_name: Rui
 middle_name: 
 last_name: Wang
-email: ruiwa@mail.ubc.ca
+email: rekingbc@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Rui Wang Academic Web Page
+  Rui Wang is a software engineer with 10 years of experience and a machine learning researcher with a Ph.D. in Electrical Engineering from UBC.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -24,7 +24,7 @@ impressum_path:  # set to path to include impressum link in the footer, use the 
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 
 # Dimensions
 max_width: 800px
@@ -42,10 +42,10 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: rekingbc# your GitHub user name
+github_username: rekingbc
 twitter_username: # your Twitter handle
 linkedin_username: # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
+scholar_userid: ZOyXeykAAAAJ
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
@@ -57,7 +57,7 @@ keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 
 contact_note: >
-  Email: ruiwa@mail.ubc.ca
+  Email: <a href="mailto:rekingbc@gmail.com">rekingbc@gmail.com</a>
 
 google_analytics: G-D2M00Z15HY # out your google-analytics code
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
@@ -66,7 +66,7 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio  # your blog must have a name for it to show up in the nav bar
+blog_name: # Blog sample pages are hidden until real posts are added.
 blog_description: a simple whitespace theme for academics
 permalink: /blog/:year/:title/
 
@@ -147,6 +147,8 @@ scholar:
   source: /_bibliography/
   bibliography: papers.bib
   bibliography_template: bib
+  sort_by: year,month,day
+  order: descending
 
   replace_strings: true
   join_strings: true

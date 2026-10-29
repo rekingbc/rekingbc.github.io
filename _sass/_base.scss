@@ -63,6 +63,14 @@ a, table.table a {
   }
 }
 
+@media (max-width: 575px) {
+  .profile {
+    width: 65%;
+    float: none !important;
+    margin: 0 auto 1.5rem;
+  }
+}
+
 .post-description {
   margin-bottom: 2rem;
   font-size: 0.875rem;
@@ -204,9 +212,9 @@ footer.fixed-bottom {
 
 footer.sticky-bottom {
   border-top: 1px solid $grey-color-light;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  font-size: 0.9rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 0.75rem;
 }
 
 
@@ -313,12 +321,12 @@ footer.sticky-bottom {
     }
   }
   h2.year {
-    color: $grey-color-light;
+    color: var(--global-theme-color);
     border-top: 1px solid $grey-color-light;
     padding-top: 1rem;
     margin-top: 2rem;
-    margin-bottom: -2rem;
-    text-align: right;
+    margin-bottom: 1rem;
+    text-align: left;
   }
   ol.bibliography {
     list-style: none;
@@ -326,7 +334,7 @@ footer.sticky-bottom {
     margin-top: 0;
 
     li {
-      margin-bottom: 1rem;
+      margin-bottom: 1.5rem;
       .abbr {
         height: 2rem;
         margin-bottom: 0.5rem;
@@ -364,6 +372,8 @@ footer.sticky-bottom {
         }
       }
       .links {
+        font-size: 0.875rem;
+        margin-top: 0.25rem;
         a.btn {
           color: var(--global-text-color);
           border: 1px solid var(--global-text-color);
